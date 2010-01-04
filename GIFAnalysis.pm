@@ -233,7 +233,7 @@ sub _decodeImageDataDetail {
 		}
 
 		# -----------------------------------------------------------------
-		# -- this routine shuld not be a sub routine, it's will be too slowly.
+		# -- this routine shuld not be a sub routine, it will be too slowly.
 		if (! defined $me->{'_globalColorTable'}->[$decimal] ||
 				$me->{'_globalColorTable'}->[$decimal] eq '') {
 			$me->{'_candidate'}	= $me->{'_buffer'}.substr($me->{'_lastUnit'}, 0, 6);
